@@ -49,95 +49,72 @@
 						</ul>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
+					<!-- Main -->
+						<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>My name is Theresa.</h2><br>
-									<h3>
+							<!-- Post -->
+								<section class="post">
+									<header class="major">
 
-										<p><span class="image left"><img src="images/pic08.jpg" alt="" /></span>
 
-											Before I did research at Columbia University in NYC, I composed and performed pop music in the Bay Area, California.
-											<br><br> Here, I attempt to consolidate the scientific and musical works that my collaborators and I have produced over the years.
-											<br><br>
-											My dream is to learn and teach, be creative and curious for the rest of my life.
-											<br>
-											<center>I've named this dream after my father:</p>
-											<h1>Welcome to Sawi Labs</h1>
 
-								</header>
-							</article>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="#">Research Lab</a></h2>
+											<p><center><h2>David Sawi</h2>
+
+											<i><h3>1948-2021</i></p></h3>
+
+
+
+										<center><p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam
+										facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor
+										amet nullam sed etiam veroeros.</p>
+
 									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p><center>Seismological machine learning research.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Enter lab</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Studio Lab</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p> <center>Original music and art. </p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Enter lab</a></li>
-									</ul>
-								</article>
-
-
-								<article>
-									<header>
-										<h2><a href="#">Upcoming events</a></h2></br>
-									</header>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Description</th>
-													<th>Date</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Machine Learning in Solid Earth Geophysics <br> Virtual Poster Session <br> Hosted by Los Alamos National Labs </td>
-													<td>26 October 2021</td>
-												</tr>
-												<tr>
-													<td>American Geophysical Union <br> Fall Meeting <br> (Virtual and in New Orleans)</td>
-													<td>13-17 December 2021 </td>
-												</tr>
-
-
-
-											</tbody>
-
-										</table>
-									</div>
-								</article>
-
-
-								<article>
-									<header>
-										<h2><a href="#">Follow the lab!</a></h2></br>
-									</header>
-									<!-- <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a> -->
-
-								</article>
 
 
 
 
-					</div>
+
+										<div class="w3-content w3-display-container">
+											<center>
+										  <img class="mySlides" src="images/Dnavy.jpg" style="width:400px;">
+										  <img class="mySlides" src="images/DTfish.png" style="width:400px;">
+										  <img class="mySlides" src="images/Dguitar.jpg" style="width:400px;">
+										  <img class="mySlides" src="images/DTread.png" style="width:400px;">
+
+										  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+										  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+										</div>
+
+										<script>
+										var slideIndex = 1;
+										showDivs(slideIndex);
+
+										function plusDivs(n) {
+										  showDivs(slideIndex += n);
+										}
+
+										function showDivs(n) {
+										  var i;
+										  var x = document.getElementsByClassName("mySlides");
+										  if (n > x.length) {slideIndex = 1}
+										  if (n < 1) {slideIndex = x.length}
+										  for (i = 0; i < x.length; i++) {
+										    x[i].style.display = "none";
+										  }
+										  x[slideIndex-1].style.display = "block";
+										}
+										</script>
+
+										</body>
+
+
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+								</section>
+
+						</div>
+
 
 				<!-- Footer -->
 					<footer id="footer">
